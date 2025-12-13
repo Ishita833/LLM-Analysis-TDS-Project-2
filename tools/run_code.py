@@ -17,7 +17,6 @@ def strip_code_fences(code: str) -> str:
         code = code.rsplit("\n", 1)[0]
     return code.strip()
 
-@tool
 def run_code(code: str) -> dict:
     """
     Executes a Python code 
@@ -52,7 +51,7 @@ def run_code(code: str) -> dict:
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
-            cwd="LLMFiles"
+            cwd="./LLMFiles"
         )
         stdout, stderr = proc.communicate()
         if len(stdout) >= 10000:

@@ -1,0 +1,6 @@
+1. Email, secret not passing correctly
+2. Size too large handling 
+3. Retry logic
+4. Consecutive solving 
+5. Avoid downloading large files
+6. Bad request happening sometimes

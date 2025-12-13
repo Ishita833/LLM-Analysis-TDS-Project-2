@@ -2,7 +2,6 @@ from langchain_core.tools import tool
 import requests
 import os
 
-@tool
 def download_file(url: str, filename: str) -> str:
     """
     Download a file from a URL and save it with the given filename

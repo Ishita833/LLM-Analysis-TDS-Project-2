@@ -3,7 +3,6 @@ from langchain_core.tools import tool
 import subprocess
 
 
-@tool
 def add_dependencies(dependencies: List[str]) -> str:
     """
     Install the given Python packages into the environment.

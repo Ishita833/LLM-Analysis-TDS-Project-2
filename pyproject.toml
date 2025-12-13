@@ -35,4 +35,22 @@ dependencies = [
     "pypdf>=6.4.0",
     "scipy>=1.16.3",
     "haversine>=2.9.0",
+    "langchain-groq>=1.1.0",
+    "ffmpeg>=1.4",
+    "opuslib>=3.0.1",
+    "soundfile>=0.13.1",
+    "librosa>=0.11.0",
+    "whisper>=1.1.10",
+    "vosk>=0.3.45",
+    "openai-whisper>=20250625",
+    "torch>=2.9.1",
+    "torchaudio>=2.9.1",
+    "pdfplumber>=0.11.8",
+    "assemblyai>=0.48.2",
+    "openai>=2.11.0",
+    "pocketsphinx>=5.0.4",
+    "pulp>=3.3.0",
 ]
+
+[tool.uv.sources]
+openai-whisper = { git = "https://github.com/openai/whisper.git" }
